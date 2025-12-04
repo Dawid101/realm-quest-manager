@@ -1,4 +1,4 @@
-package dawid;
+package com.example.questmanager;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -199,5 +199,10 @@ public class RealmQuestManager {
             }
             handleCommand(input);
         }
+    }
+
+    public static void main(String[] args) {
+        RealmQuestManager manager = new RealmQuestManager();
+        manager.run();
     }
 }

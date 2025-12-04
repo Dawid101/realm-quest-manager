@@ -1,1 +1,11 @@
-[ ]
+[ {
+  "id" : 1,
+  "title" : "pokonaj smoka",
+  "rewardCoins" : 150,
+  "completed" : true
+}, {
+  "id" : 2,
+  "title" : "nagraj TikToka",
+  "rewardCoins" : 50,
+  "completed" : false
+} ]

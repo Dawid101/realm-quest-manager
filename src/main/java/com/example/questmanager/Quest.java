@@ -1,4 +1,4 @@
-package dawid;
+package com.example.questmanager;
 
 public class Quest {
     private Long id;
@@ -37,10 +37,9 @@ public class Quest {
 
     @Override
     public String toString() {
-        return "Quest{" +
-                "title='" + title + '\'' +
-                ", completed=" + completed +
+        return "id=" + id +
+                ", title='" + title + '\'' +
                 ", rewardCoins=" + rewardCoins +
-                '}';
+                ", completed=" + completed;
     }
 }
